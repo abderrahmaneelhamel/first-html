@@ -6,7 +6,7 @@ nav{
     display: flex;
     background-color: rgb(244, 251, 255);
     position: fixed;
-    width: 1235px;
+    width: 100%;
     top:0;
     z-index: 1000;
     -webkit-box-shadow: 1px 10px 7px -1px rgba(8,38,72,0.18); 
@@ -16,7 +16,7 @@ nav svg{
     width: 150px;
 }
 nav h4{
-    margin-left: 900px;
+    margin-left: 1000px;
 }
 .first{
     display: flex;
@@ -80,4 +80,9 @@ footer pre{
     color: rgba(240, 248, 255, 0.728);
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: small;
+}
+@media screen and (maax-width : 1400px) {
+    *{
+        width: 90%;
+    }
 }
