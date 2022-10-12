@@ -6,21 +6,27 @@ nav{
     display: flex;
     background-color: rgb(244, 251, 255);
     position: fixed;
+    width: 1235px;
     top:0;
     z-index: 1000;
     -webkit-box-shadow: 1px 10px 7px -1px rgba(8,38,72,0.18); 
     box-shadow: 1px 10px 7px -1px rgba(8,38,72,0.18);
 }
-
-nav a svg{
-    width: 1000px;
+nav svg{
+    width: 150px;
 }
 nav h4{
-    margin-left: 1000px;
-    width: auto;
+    margin-left: 900px;
 }
-#cont{
-    margin-left: 1000px;
+.first{
+    display: flex;
+    margin-top: 100px;
+}
+.second{
+    display: flex;
+}
+.therd{
+    display: flex;
 }
 .button{
     -webkit-box-shadow: 0px 0px 8px 5px rgba(26,125,236,0.3); 
@@ -33,12 +39,9 @@ nav h4{
     border: 0px;
     margin: 10px;
 }
-.video{
-    margin-top: 40px;
-    display:flex;
-}
 video{
-    margin-left: 130px;
+    margin-top: 90px;
+    margin-left: 40px;
     border-radius: 30px;
     -webkit-box-shadow: 1px 10px 7px -1px rgba(8,38,72,0.33); 
     box-shadow: 1px 10px 7px -1px rgba(8,38,72,0.33);
@@ -49,32 +52,31 @@ video{
     border-radius: 20px;
     margin-left: 500px;
 }
-main section img{
+.first img{
     margin-top: 30px;
-    width: 350px;
+    width: 500px;
     border-radius: 20px;
-    margin-left: 5px;
+    margin-left: 200px;
     -webkit-box-shadow: 1px 10px 7px -1px rgba(8,38,72,0.33); 
     box-shadow: 1px 10px 7px -1px rgba(8,38,72,0.33);
 }
 main section p{
-   width: 100%;
     word-wrap:break-word;
 }
 main section{
     margin-top: 100px;
     display: block;
-    width: 100%;
     margin: 20px;
     margin-bottom: 50px;
 }
 footer{
+    width: 1235px;
     display: flex;
     background-color: rgb(85, 85, 85);
     padding: 20px;
 }
 footer pre{
-    margin-left: 50px;
+    margin-left: 5px;
     color: rgba(240, 248, 255, 0.728);
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: small;
